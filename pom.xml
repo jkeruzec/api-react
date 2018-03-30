@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>api-react-rest</module>
+		<module>api-react-security</module>
 	</modules>
 
 	<properties>
@@ -36,7 +37,13 @@
 			<!-- Internal dependencies -->
 			<dependency>
 				<groupId>com.test</groupId>
-				<artifactId>api-react</artifactId>
+				<artifactId>api-react-rest</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.test</groupId>
+				<artifactId>api-react-security</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			

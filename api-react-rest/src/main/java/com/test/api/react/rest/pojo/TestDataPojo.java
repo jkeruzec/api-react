@@ -6,6 +6,6 @@ import lombok.Data;
 public class TestDataPojo {
 
 	protected int id;
-	protected String message;
+	protected String email;
 	
 }
